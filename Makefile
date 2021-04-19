@@ -5,11 +5,11 @@
 ## Makefile
 ##
 
-SRC = setattribute.c
+SRC = getattribute.c
 
 OBJ = $(SRC:.c=.o)
 
-CFLAGS = -W -Wall -Wextra -Werror -Wfatal-errors
+CFLAGS = -W -Wall -Wextra -Werror
 
 NAME = attributes
 
