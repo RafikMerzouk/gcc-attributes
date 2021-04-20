@@ -35,10 +35,6 @@ __attribute__ ((warn_unused_result)) int fun(void)
     return (2);
 }
 
-int old_var __attribute__((deprecated)) = 9;
-
-extern int ext __attribute__((alias("old_var")));
-
 int getvalue(void)
 {
     return (ext);
